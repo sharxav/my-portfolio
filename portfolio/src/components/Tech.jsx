@@ -54,7 +54,7 @@ const Tech = () => {
 
         
 
-         <div className='mt-10 flex flex-wrap gap-10 items-center justify-center'>
+            <div className='mt-10 flex flex-row flex-wrap justify-center gap-10'>
                 {technologies.map((technology, index) => (
                     <TechCard key={technology.name} index={index} {...technology} />
                 ))}
