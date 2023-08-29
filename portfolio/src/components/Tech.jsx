@@ -18,13 +18,13 @@ const TechCard = ({ icon, width, height, viewBox,url }) => (
                     scale: 1,
                     speed: 450,
                 }}
-                className='bg-primary rounded-[20px] min-h-[70px] flex justify-evenly items-center '
+                className='bg-primary rounded-[20px] min-h-[70px] flex justify-evenly items-center flex-col '
                 
             >
                 <a href={url} >
                
                
-                    <svg class="flex-no-shrink fill-current hover:text-cyan-400 "
+                    <svg class=" fill-current hover:text-cyan-400 "
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox={viewBox}
@@ -54,7 +54,7 @@ const Tech = () => {
 
         
 
-            <div className='mt-10 flex flex-row flex-wrap justify-center gap-10'>
+            <div className='mt-20 flex flex-wrap gap-4 sm:gap-10 justify-center items-center'>
                 {technologies.map((technology, index) => (
                     <TechCard key={technology.name} index={index} {...technology} />
                 ))}
