@@ -19,3 +19,19 @@ Thank you for taking the time to explore my portfolio! I'm excited to connect wi
 
 Let the journey unfold! 
 
+## References:
+**Video Tutorials**:
+1. https://www.youtube.com/watch?v=0fYi8SGA20k
+2. https://www.youtube.com/watch?v=B9_SVYoOkZo
+   
+**Icons**:
+1. https://icons8.com/
+2. https://heroicons.com/
+
+**Images**:
+1. https://unsplash.com/
+   
+**Others**:
+1. https://particles.js.org/
+2. https://tailwindcss.com/
+3. https://stephane-monnot.github.io/react-vertical-timeline/#/
