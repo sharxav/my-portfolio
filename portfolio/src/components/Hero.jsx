@@ -6,14 +6,17 @@ import { github, linkedin } from '../assets';
 const Hero = () => {
     return (
         <section className={`relative w-full h-screen mx-auto`}>
+           
             <div
-                className={`relative inset-0 top-[150px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center gap-2`}
+                className={`absolute inset-0 top-[150px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center gap-2`}
             >
+             
                 
                     <h1 className={`${styles.heroHeadText}`}>
-                        Sharon Xavier
+                    Sharon Xavier<hr />
                 </h1>
-                <hr/>
+                <hr />
+                
          
            
                     <p className='text-white-100 text-center'>

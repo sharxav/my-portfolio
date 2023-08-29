@@ -19,7 +19,7 @@ const ProjectCard = ({ name, description, image, tags }) => {
 
                 <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                     <div class="relative w-full h-[230px]">
-                        <img class="object-cover transition-transform duration-500" src={image} alt={name} />
+                        <img class="object-cover transition-transform duration-500 " src={image} alt={name} />
                     </div>
                     
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
@@ -65,7 +65,7 @@ const Works = () => {
                     Throughout my acadaemic journey, I've taken on a series of projects that reflect my aptitude for tackling real-world challenges. These endeavors underscore my skills in applying innovative solutions and leveraging cutting-edge technologies. Each project presented below offers a glimpse into my capability to devise effective strategies and implement them using diverse tools and methodologies. Visit my Github repository for more!
                     </motion.p>
             </div>
-            <div className="mt-20 flex flex-wrap gap-7">
+            <div className="mt-20 flex flex-wrap gap-7 justify-center items-center">
                 {projects.map((project, index) => (
                     <ProjectCard key={`project-${index}`} index={index} {...project} />
                 ))}
