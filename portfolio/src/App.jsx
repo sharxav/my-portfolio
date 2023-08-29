@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { About, Experience, Hero, Tech, Navbar, Works,ParticleBackground,Footer} from './components'
 import './index.css'
 
@@ -7,7 +7,7 @@ const App=()=> {
 
   return (
       
-      <BrowserRouter>
+      <HashRouter>
          
           <div className="relative z-0 bg-primary">
               <Navbar />
@@ -36,7 +36,7 @@ const App=()=> {
 
         
 
-              </BrowserRouter>
+              </HashRouter>
      
       
   )
