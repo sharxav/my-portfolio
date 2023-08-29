@@ -10,7 +10,7 @@ const Hero = () => {
                 className={`absolute inset-0 top-[150px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center gap-5`}
             >
                 <div>
-                    <h1 className={`${styles.heroHeadText} text-white`}>
+                    <h1 className={`${styles.heroHeadText} text-white text-center`}>
                         Sharon Xavier
                     </h1>
                     <hr />
