@@ -11,14 +11,14 @@ const TechCard = ({ icon, width, height, viewBox,url }) => (
     <Tilt className='xs:w-[80px] w-full'>
         <motion.div
             variants={textVariant()}
-            className='w-[70px] blue-green-gradient p-[1px] rounded-[20px] '>
+            className='w-[70px] blue-green-gradient p-[1px] rounded-[20px]'>
             <div
                 options={{
                     max: 45,
                     scale: 1,
                     speed: 450,
                 }}
-                className='bg-primary rounded-[20px] min-h-[70px] flex justify-evenly items-center flex-col '
+                className='bg-primary rounded-[20px] min-h-[70px] flex justify-evenly items-center '
                 
             >
                 <a href={url} >
