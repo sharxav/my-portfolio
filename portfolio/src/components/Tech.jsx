@@ -8,7 +8,7 @@ import { textVariant } from "../utils/motion";
 import '../index.css'
 
 const TechCard = ({ icon, width, height, viewBox,url }) => (
-    <Tilt className='xs:w-[80px] w-full'>
+    <Tilt className='w-[80px]'>
         <motion.div
             variants={textVariant()}
             className='w-[70px] blue-green-gradient p-[1px] rounded-[20px]'>
@@ -22,7 +22,6 @@ const TechCard = ({ icon, width, height, viewBox,url }) => (
                 
             >
                 <a href={url} >
-               
                
                     <svg class=" fill-current hover:text-cyan-400 "
                     fill="none"
@@ -54,7 +53,7 @@ const Tech = () => {
 
         
 
-            <div className='mt-20 flex flex-wrap gap-4 sm:gap-10 justify-center items-center'>
+            <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
                 {technologies.map((technology, index) => (
                     <TechCard key={technology.name} index={index} {...technology} />
                 ))}
